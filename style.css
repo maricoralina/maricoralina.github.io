@@ -39,21 +39,25 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-.project-image-container {
-    text-align: center; /* Centraliza a imagem */
+h1 {
+    color: #ffffff; /* Branco para o título principal */
 }
 
-.project-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para imagens */
-    margin-bottom: 15px; /* Espaço entre imagem e texto */
-}
-
-h1, h2, h3, h4 {
+h2, h3, h4 {
     color: #005582; /* Azul escuro para títulos */
+}
+
+blockquote {
+    background: #f3f6f9; /* Fundo cinza claro para depoimentos */
+    border-left: 4px solid #005582; /* Barra azul à esquerda para destacar */
+    margin: 20px 0;
+    padding: 15px;
+    font-style: italic;
+}
+
+footer {
+    font-weight: bold;
+    color: #333; /* Cor neutra para o nome do autor */
 }
 
 a {
