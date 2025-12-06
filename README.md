@@ -1,27 +1,123 @@
-# Mariana Carmo - Portfólio de Product Manager
+# Mariana Carmo - Product Manager Portfolio
 
-Bem-vindo ao meu repositório de portfólio! Meu nome é **Mariana Carmo**, e sou **Senior Product Manager** com experiência em **estratégia de produto**, **inovação** e **Inteligência Artificial**. Ao longo de **15 anos de carreira**, tenho utilizado tecnologias avançadas, incluindo **IA Generativa**, para desenvolver soluções que otimizam processos, melhoram a experiência do usuário e promovem a inovação em produtos digitais.
+Welcome to my portfolio repository! My name is **Mariana Carmo**, and I'm a **Senior Product Manager** with expertise in **product strategy**, **innovation**, and **Artificial Intelligence**. Throughout my **15-year career**, I have utilized advanced technologies, including **Generative AI**, to develop solutions that optimize processes, improve user experience, and drive innovation in digital products.
 
-## Sobre Mim
-Minha trajetória profissional começou na gestão educacional, atuando em diversas modalidades de ensino como Graduação, EaD, Pós-Graduação e Extensão Universitária. Nos últimos cinco anos, tenho focado em gestão de produtos, atualmente liderando iniciativas de prevenção a fraudes na **ClearSale**. Utilizo minha formação em **psicologia educacional**, aliada à expertise em metodologias ágeis e tecnologia, para criar soluções que trazem impacto positivo e atendem às necessidades dos usuários de maneira eficaz.
+## About Me
 
-## Projetos
-Este repositório contém meu portfólio, destacando alguns dos projetos mais significativos nos quais trabalhei, aplicando **tecnologias de ponta** e **abordagens de IA** para resolver problemas complexos e gerar impacto positivo:
+My professional journey began in educational management, working across various teaching modalities including Undergraduate, Distance Learning, Graduate Programs, and University Extension. Over the past five years, I have focused on product management, currently leading fraud prevention initiatives at **Serasa Experian** (following ClearSale's acquisition). I leverage my background in **educational psychology**, combined with expertise in agile methodologies and technology, to create solutions that deliver positive impact and effectively meet user needs.
 
-- **PT Gamificação**: Uma iniciativa para aumentar o engajamento e a motivação dos alunos através da inserção de elementos de gamificação na jornada acadêmica.
-- **Modelo Avaliativo**: Desenvolvimento de um modelo de avaliação digital aplicado a diferentes formatos de cursos, visando a melhoria da aprendizagem dos estudantes e o acompanhamento de métricas como o ENADE.
-- **Migração de Produtos Legados**: Estratégia e implementação de migração de produtos legados para a nova Plataforma Data Trust, modernizando a infraestrutura e melhorando a experiência do cliente.
-- **Consulta em Lote**: Evolução da funcionalidade de Consulta em Lote, modernizando o processamento de grandes volumes de registros de forma assíncrona na Plataforma Data Trust.
-- **Copilot Studio e Azure OpenAI**: Desenvolvimento de soluções de IA para otimizar o atendimento interno, integrando chatbots ao Microsoft Teams.
-- **Alana**: Criação de um chatbot baseado em IA Generativa para melhorar a eficiência dos processos internos na ClearSale.
+## Repository Structure
 
-Sinta-se à vontade para explorar cada projeto em detalhe através dos links fornecidos.
+```
+maricoralina.github.io/
+├── index.html              # Home page with introduction and key metrics
+├── about.html              # About Me page with professional journey
+├── projects.html           # Projects showcase page
+├── testimonials.html       # Testimonials from colleagues and partners
+├── contact.html            # Contact page with multiple channels
+├── style.css               # Main stylesheet for the entire portfolio
+├── README.md               # This file
+├── assets/                 # Image assets
+│   ├── calendly-logo.png
+│   ├── gmail-logo.png
+│   ├── linkedin-logo.png
+│   └── whatsapp-logo.png
+└── docs/                   # Project documentation (PDFs)
+    ├── [IA] Copilot Studio x Azure OpenAI.pdf
+    ├── Backtest.pdf
+    ├── Batch.pdf
+    ├── Gamificacao.pdf
+    ├── IA.pdf
+    ├── IA_2.pdf
+    └── Migracao.pdf
+```
 
-## Como Utilizar Este Repositório
-- Navegue até a seção **Projetos** deste repositório para encontrar descrições detalhadas, exemplos de código e links relevantes para cada projeto.
-- Clone o repositório se quiser explorar o código ou adaptá-lo para seu uso.
+## Technologies Used
 
-## Contato
-Se tiver alguma dúvida ou quiser colaborar, sinta-se à vontade para me contatar pelo [LinkedIn](https://www.linkedin.com/in/mariana-coralina-do-carmo) ou pelo email **mari.coralina@gmail.com**.
+- **HTML5** - Semantic markup structure
+- **CSS3** - Custom styling with CSS Grid and Flexbox
+- **Google Fonts** - Krona One and Montserrat typography
+- **Responsive Design** - Mobile-first approach with media queries
+- **GitHub Pages** - Static site hosting
 
-Obrigada por visitar meu portfólio!
+## Key Features
+
+- 📱 **Fully Responsive** - Optimized for all device sizes
+- 🎨 **Modern Design** - Clean, professional interface with smooth transitions
+- 📊 **Project Showcase** - Detailed case studies with metrics and outcomes
+- 💬 **Social Proof** - Testimonials from colleagues and partners
+- 🔗 **Multiple Contact Channels** - LinkedIn, Email, Calendly, WhatsApp
+
+## Featured Projects
+
+This portfolio highlights some of the most significant projects I've worked on, applying **cutting-edge technologies** and **AI approaches** to solve complex problems and generate positive impact:
+
+### **Fraud Prevention Portfolio Unification**
+Integration of ClearSale and Serasa Experian fraud prevention services into a unified platform, consolidating 15 services with AI-powered navigation serving 280+ clients.
+
+### **AI Chatbot Integrated with Microsoft Teams**
+Development and implementation of generative AI chatbots (ChatPDT and Alana) using Azure OpenAI and Microsoft Copilot Studio, reducing service time by 60% across multiple teams.
+
+### **Batch Query Evolution**
+Modernization of batch processing functionality on the Data Trust Platform, handling 2M+ records monthly with 50% performance improvement and 95% customer satisfaction.
+
+### **Legacy Product Migration**
+Strategic migration of 150+ clients from 4 legacy products to the new Data Trust Platform (PDT) with 90% success rate, focusing on smooth customer experience and infrastructure modernization.
+
+### **Gamification in Academic Journey**
+Leadership of gamification initiative inserting badges, rankings, and points into the academic journey, achieving 35% engagement increase and 25% retention improvement among 200K+ students.
+
+### **Digital Assessment Model**
+Development and implementation of digital assessment models for 800K+ students across 3 teaching modalities, resulting in 15% ENADE improvement through personalized and effective evaluation experiences.
+
+## How to Use This Repository
+
+### Viewing the Portfolio
+- Visit the live site at: [https://maricoralina.github.io](https://maricoralina.github.io)
+- Navigate through different sections using the top menu
+
+### Local Development
+```bash
+# Clone the repository
+git clone https://github.com/luisrodriguesphd/maricoralina.github.io.git
+
+# Navigate to the directory
+cd maricoralina.github.io
+
+# Open index.html in your browser
+# Or use a local server (e.g., with VS Code Live Server extension)
+```
+
+### Project Documentation
+- Navigate to the `docs/` folder for detailed PDF documentation of specific projects
+- Each project on the website includes reference links to relevant documentation
+
+## Core Competencies
+
+- 🎯 **Product Strategy** - Vision definition, roadmap, and data-driven prioritization
+- 🤖 **Generative AI** - Azure OpenAI, Copilot Studio, and API integration
+- 👥 **Stakeholder Management** - Effective communication with technical teams and executives
+- 🔄 **Agile Methodologies** - Scrum, Kanban, Design Thinking, and Lean Startup
+- 📊 **Data Analysis** - Metrics, KPIs, and user behavior analysis
+- 🚀 **Product Migration** - Platform transitions with focus on customer experience
+
+## Tools & Technologies Expertise
+
+Azure OpenAI | Microsoft Copilot Studio | Databricks | JIRA | Confluence | Miro | Figma | Power BI | SQL | REST APIs | Azure DevOps | Google Analytics | Git
+
+## Contact
+
+Feel free to reach out for opportunities, partnerships, or conversations about Product Management, Generative AI, and digital innovation:
+
+- 💼 **LinkedIn**: [Mariana Coralina do Carmo](https://www.linkedin.com/in/mariana-coralina-do-carmo/)
+- 📧 **Email**: mari.coralina@gmail.com
+- 📅 **Calendly**: [Schedule a meeting](https://calendly.com/marianacarmo)
+- 💬 **WhatsApp**: [+351 913 293 273](http://wa.me/+351913293273)
+
+## License
+
+This portfolio is © 2025 Mariana Carmo. All rights reserved.
+
+---
+
+Thank you for visiting my portfolio! 🚀
