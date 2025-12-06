@@ -461,9 +461,12 @@ p {
 
 .contato-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin: 40px 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contato-card {
@@ -485,6 +488,14 @@ p {
 .contato-icon {
     font-size: 3rem;
     margin-bottom: 8px;
+}
+
+.contato-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 0 auto 8px auto;
+    display: block;
 }
 
 .contato-card h3 {
@@ -658,5 +669,10 @@ a:hover {
     
     .contato-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .contato-logo {
+        width: 60px;
+        height: 60px;
     }
 }
