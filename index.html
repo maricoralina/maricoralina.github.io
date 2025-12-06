@@ -1,104 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariana Carmo - Product Manager Portfolio</title>
+    <meta name="description" content="Mariana Carmo - Sr. Product Manager with 15 years of experience in product strategy, innovation, and Generative AI.">
+    <title>Mariana Carmo - Sr. Product Manager</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Mariana Carmo - Portfólio de Product Manager</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho_menu_link active" href="index.html">Home</a>
+            <a class="cabecalho_menu_link" href="sobre.html">About Me</a>
+            <a class="cabecalho_menu_link" href="projetos.html">Projects</a>
+            <a class="cabecalho_menu_link" href="depoimentos.html">Testimonials</a>
+            <a class="cabecalho_menu_link" href="contato.html">Contact</a>
         </nav>
     </header>
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Com 15 anos de experiência, minha trajetória abrange desde a gestão educacional até a gestão de produtos digitais. Sou atualmente Sr. Product Manager na ClearSale, com experiência em estratégia de produto, inovação, e uso de IA Generativa para resolver problemas complexos e gerar impacto positivo. Sou apaixonada por transformar vidas através de soluções inovadoras, sempre focada em melhorar a experiência do usuário.</p>
+    
+    <section class="apresentacao">
+        <div class="apresentacao__conteudo">
+            <h1 class="apresentacao_conteudo_titulo">Hello, I'm <strong class="titulo-destaque">Mariana Carmo</strong></h1>
+            <p class="apresentacao_conteudo_texto">Product Manager passionate about transforming complex challenges into innovative digital solutions that generate real impact.</p>
+            
+            <div class="apresentacao__metricas">
+                <div class="metrica">
+                    <span class="metrica__numero">15+</span>
+                    <span class="metrica__label">Years of Experience</span>
+                </div>
+                <div class="metrica">
+                    <span class="metrica__numero">10+</span>
+                    <span class="metrica__label">Delivered Projects</span>
+                </div>
+                <div class="metrica">
+                    <span class="metrica__numero">8+</span>
+                    <span class="metrica__label">Teams Led</span>
+                </div>
+            </div>
+            
+            <div class="apresentacao__links">
+                <h2 class="apresentacao_links_subtitulo">Explore my work</h2>
+                <a class="apresentacao_links_navegacao" href="sobre.html">
+                    <span class="link-icon">👤</span>
+                    About Me
+                </a>
+                <a class="apresentacao_links_navegacao" href="projetos.html">
+                    <span class="link-icon">💼</span>
+                    Projects
+                </a>
+                <a class="apresentacao_links_navegacao" href="depoimentos.html">
+                    <span class="link-icon">💬</span>
+                    Testimonials
+                </a>
+                <a class="apresentacao_links_navegacao" href="contato.html">
+                    <span class="link-icon">📧</span>
+                    Contact
+                </a>
+            </div>
+        </div>
     </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
-
-        <article>
-            <h3>Chatbot com IA Integrado ao Microsoft Teams: Escolha e Evolução da Solução de Atendimento Interno</h3>
-            <p>Como Product Manager, liderei o desenvolvimento, a prova de conceito (PoC) e a implementação de um chatbot baseado em IA generativa para otimizar processos internos e melhorar a eficiência do atendimento na ClearSale. Utilizamos Microsoft Copilot Studio, Azure OpenAI e desenvolvemos o ChatPDT e a Alana, com uma abordagem low-code para fácil personalização e integração ao Microsoft Teams.</p>
-            <h4>Descrição do Projeto</h4>
-            <p>O objetivo do projeto foi identificar e desenvolver a melhor solução para otimizar o atendimento dos times de TI, Suporte, Growth e CSMs, criando um chatbot eficiente e escalável. Realizamos uma comparação entre diferentes plataformas de IA, considerando performance, escalabilidade e custo, o que resultou na escolha e implementação da melhor abordagem para as necessidades internas. Neste projeto, foi possível também a integração com base de dados via Databricks, além de diferentes bases de conhecimento.</p>
-            <h4>Referências</h4>
-            <p><a href="docs/IA.pdf">Business Plan</a> | <a href="docs/IA_2.pdf">Azure OpenAI</a> | <a href="docs/[IA] Copilot Studio x Azure OpenAI.pdf">Copilot Studio</a></p>
-        </article>
-
-        <article>
-            <h3>Consulta em Lote: Evolução e Expansão na Plataforma Data Trust (PDT)</h3>
-            <p>Como Product Manager, fui responsável pela evolução da funcionalidade de Consulta em Lote, modernizando e expandindo sua capacidade dentro da Plataforma Data Trust.</p>
-            <h4>Descrição do Projeto</h4>
-            <p>A funcionalidade de Consulta em Lote permite o processamento de grandes volumes de registros de forma assíncrona para clientes que não conseguem realizar consultas via API. A migração para a PDT resultou em maior eficiência, melhor desempenho e modernização do serviço, aumentando significativamente a satisfação dos clientes.</p>
-            <h4>Referências</h4>
-            <p><a href="docs/Batch.pdf">Consulta em Lote</a> | <a href="docs/Backtest.pdf">Backtest</a></p>
-        </article>
-
-        <article>
-            <h3>Migração de Produtos Legados: Estratégia e Implementação</h3>
-            <p>Como Product Manager, liderei o processo de migração dos produtos legados para a nova Plataforma Data Trust (PDT), buscando otimizar a experiência dos clientes e modernizar a infraestrutura.</p>
-            <h4>Descrição do Projeto</h4>
-            <p>Desenvolvi uma estratégia segmentada para a migração dos produtos legados, incluindo Data Trust v1, Mobile Trust e Financial Fraud Radar, para a nova PDT. A coordenação do fluxo de transição focou em uma comunicação proativa com os clientes, garantindo uma experiência de migração suave e satisfatória, além de melhorias substanciais na infraestrutura.</p>
-            <h4>Referências</h4>
-            <p><a href="docs/Migracao.pdf">Migração de Clientes</a></p>
-        </article>
-
-        <article>
-            <h3>Gamificação: Engajamento e Aprendizagem na Jornada Acadêmica</h3>
-            <p>Como Product Manager, liderei a iniciativa "PT Gamificação" com foco na inserção de elementos de gamificação na jornada acadêmica dos alunos, proporcionando uma experiência mais envolvente e motivadora.</p>
-            <h4>Descrição do Projeto</h4>
-            <p>Identifiquei desafios relacionados ao engajamento dos alunos e desenvolvi uma solução que integra badges, rankings e pontos para melhorar o processo de avaliação. Utilizei metodologias ágeis e a Teoria da Mudança para estruturar MVPs e iterar rapidamente, o que resultou em aumento do engajamento e melhores indicadores de retenção.</p>
-            <h4>Referências</h4>
-            <p><a href="docs/Gamificacao.pdf">Gamificação</a></p>
-        </article>
-
-        <article>
-            <h3>Modelo Avaliativo: Melhorando a Aprendizagem através da Inovação Digital</h3>
-            <p>Fui responsável pelo desenvolvimento e implementação do "Modelo Avaliativo", um conjunto de ações inovadoras para melhorar a aprendizagem dos estudantes da Kroton, utilizando tecnologias digitais.</p>
-            <h4>Descrição do Projeto</h4>
-            <p>Desenvolvi modelos de avaliação digital para cursos online, presenciais e semipresenciais, acompanhando indicadores de desempenho como o ENADE. Também adaptei o modelo para a EJA e pós-graduação, proporcionando uma experiência de avaliação personalizada e eficaz.</p>
-            <h4>Referências</h4>
-            <p><a href="https://www.notion.so/Avalia-o-da-Aprendizagem-d483d1b0fc3f4020813f41dd7670eb8e?pvs=4">Modelo Avaliativo</a></p>
-        </article>
-        
-    </section>
-
-    <section id="depoimentos">
-        <h2>Depoimentos</h2>
-        <blockquote>
-            <p>"Minha mentoria com a Mari começou alguns anos atrás, quando eu ainda era estagiária. Seu direcionamento, paciência (e claro, os puxões de orelha) foram cruciais para o meu desenvolvimento – e continuam sendo! Os anos passaram, e hoje, atuando como Product Manager, mesmo não tendo mais uma agenda fixa de mentoria com ela, segue sendo uma das principais referências que tenho no mundo de Produtos e organização. Valeu por tudo, Mari!"</p>
-            <footer>- Ana Santin, Product Manager na PX.Center</footer>
-        </blockquote>
-        <blockquote>
-            <p>"A Mari  é do tipo de profissional no qual  me espelho e desejo chegar a ser um dia.🤗 ❤️. Ela nos direciona de forma eficaz para que as nossas entregas de resultados sejam realizadas de  forma excepcionais, mas sem esquecer do "O Profissional, é uma pessoa!". Além disso, está ativamente contribuindo com o squad (Inovou trazendo  AI para o ChatPDT para auxiliar outras áreas - Comercial). Sou grata pela contribuição que tem feito em minha carreira profissional. "</p>
-            <footer>- Aline Silva, QA na ClearSale</footer>
-        </blockquote>
-        <blockquote>
-            <p>"Mari, queria te agradecer por toda troca nesses últimos meses quanto a passagem de conhecimento e alinhamento de processos na Globalização do Suporte. Você é uma pessoa dedicada, amiga, que pondera as coisas na medida certa. É um prazer discutir e escutar seus direcionamentos sobre AppFraud. Pessoas como você são poucas quando falamos de gestão de projetos. Continue assim, pois você gera muito valor aqui dentro."</p>
-            <footer>- Murilo Mucknicka, Tech Lead na ClearSale</footer>
-        </blockquote>
-        <blockquote>
-            <p>"Mari tem uma ótima visão de negócio e consegue trazê-la para o mundo técnico conversando de igual para igual com o time sem dificuldades e obstáculos. Tem ótima visão analítica e consegue antever situações com frequencia nas quais na maioria das vezes quando identificadas, já foram levantadas e tratadas por ela. Tem excelente relacionamento não somente dentro da área mas também nas áreas parceiras, com ótima comunicação, empatia e fluidez. A escrita de US está sempre impecável e a forma como traz as demandas para o time não gera duvidas ou questionamentos, pois busca o tempo todo estar inteirada com negócio e área técnica para que nada escape no momento da estruturação. Primeira vez que começamos a trabalhar juntas foi esse ano e parece que ja estamos juntas há décadas, admiro muito seu trabalho e sua postura e vejo vc como uma referencia quando falamos dos papeis de PO/PM!"</p>
-            <footer>- Bianca Aguiar, Coordenadora de TI na ClearSale</footer>
-        </blockquote>
-         <blockquote>
-            <p>"A Mariana é uma profissional extremamente dedicada, comprometida e que atua com agilidade em todos os temas, principalmente os mais críticos, o que reforça o seu senso de urgência e sentimento de dona na tratativa dos desafios e condução das atividades do dia a dia. Possui facilidade para entender assuntos/problemas e busca, em parceria com outras áreas, estabelecer caminhos para solucioná-los."</p>
-            <footer>- Amanda Carpani, Coordenadora de Produto na ClearSale</footer>
-        </blockquote>
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Se quiser entrar em contato, sinta-se à vontade para me encontrar no <a href="https://www.linkedin.com/in/mariana-coralina-do-carmo/">LinkedIn</a> ou pelo e-mail <a href="mailto:mari.coralina@gmail.com">mari.coralina@gmail.com</a></p>
-    </section>
+    
+    <footer class="rodape">
+        <p>Developed by Mariana Carmo © 2025</p>
+        <div class="rodape__links">
+            <a href="https://www.linkedin.com/in/mariana-coralina-do-carmo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:mari.coralina@gmail.com">Email</a>
+            <a href="https://calendly.com/marianacarmo" target="_blank" rel="noopener noreferrer">Calendly</a>
+            <a href="http://wa.me/+351913293273" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+    </footer>
 </body>
 </html>
